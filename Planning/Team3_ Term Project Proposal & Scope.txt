@@ -1,0 +1,32 @@
+﻿* Team 3: Term Project Proposal & Scope
+                                        Alex, Sanya, Ayaan - Section 1
+Web Application Name: Spice of Life
+Areas of Focus:
+* Area 1:  HTML, CSS, and graphics for page layout and design
+* Area 2:  Javascript interactivity to improve user experience  (e.g. from simple to more complex: mouse hovers, form validation, hide/show, auto-completion, drag and drop, etc) 
+* Area 3:  Pull static data from a data file, e.g. JSON or XML (or both)
+* Area 4:  Pull real data from a database
+
+
+Proposal & Scope
+* Purpose: 
+   * Create a web application that holds a variety of cooking recipes in the following categories: Appetizers, Main, Desserts, Drinks
+* What Does the Application Do?:
+   * We can filter by: 
+      * Vegetarian/Vegan
+      * Search by Keyword
+      * Allergy Friendly
+      * Certain Nutrients
+      * Calorie Count
+      * Highest Amount of Reviews/Ratings  
+   * We can also have: 
+      * “Recipe of the Day” – something that changes/moves at the top daily.
+* Who It Serves?: 
+   * People who are passionate about cooking or want inspiration to learn a new recipe or two! It can also serve college students and parents.  
+* What sets it apart?:
+   * Combining the searching capability with recipes, but at the same time, filtering based upon preference like Vegetarian/Meat/AllergyFriendly
+   * Having a Recipe of the Day come at the top every time we refresh? 
+
+
+API We Plan/Maybe to Use:  
+* https://developer.edamam.com/edamam-recipe-api

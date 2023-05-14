@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="Resources/styles/index.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://developer.edamam.com/attribution/badge.js"></script>
+      <title>Home</title>
+   </head>
+   <body>
+      <a href="#"><img src="Resources/images/logo.png" alt="Home" width="150" height="150" id = "logo"></a>
+      <nav>
+         <ul>
+            <li><a href="#" class = "currentPage">Home</a></li>
+            <li><a href="recipeoftheday.php">Recipe of the Day</a></li>
+            <li><a href="collegecorner.php">College Corner</a></li>
+            <li><a href="parentsplace.php">Parents' Place</a></li>
+            <li><a href="allergy.php">Allergy-Friendly</a></li>
+            <li><a href="backend/feedback.php">Contact/Feedback</a></li>
+         </ul>
+         <div class="search-bar">
+         <form method="post" action="backend/search.php">
+            <input type="text" placeholder="Search..." name="query">
+            <button type="submit">Search</button>
+         </form>
+      </div>
+      </nav>
+      <!--search bar-->
+      
+         <h1 id="title">Spice of Life</h1>
+         <h2 id="slogan">Simple and <br> Tasty Recipes</h2>
+         
+         <div id = "homePhotos"><img src="Resources/images/homepagephotos.webp" alt = "HomePagePhotos" width = "1000" height = "400"></div>
+      
+         <div id="edamam-badge" data-color="white"></div>
+   </body>
+</html>
